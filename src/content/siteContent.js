@@ -8,6 +8,11 @@ export const siteContent = {
     ctaPrimary: { label: 'Sponsor a Child', href: '#sponsorship' },
     ctaSecondary: { label: 'Donate Now', href: '#donate' },
   },
+  links: {
+    driveGallery:
+      'https://drive.google.com/drive/folders/1gDgo1-0VF_aoHlwmYlumlvlAQ8ayc1zT',
+    whatsapp: 'https://wa.me/923218465755',
+  },
   stats: [
     { label: 'Students', value: '218' },
     { label: 'Staff', value: '12' },
@@ -74,4 +79,22 @@ export const siteContent = {
       { label: 'Instagram', href: 'https://www.instagram.com/alnoor.trust?igsh=MXZ1cmJoeWNpanEzbg==' },
     ],
   },
+  donationUse: [
+    {
+      title: 'Student Fee Support',
+      description: 'Direct sponsorship for full or partial tuition for vulnerable students.',
+    },
+    {
+      title: 'Teacher Salaries',
+      description: 'Monthly support to sustain staff and classroom continuity.',
+    },
+    {
+      title: 'Learning Materials',
+      description: 'Books, lab items, and school supplies that improve classroom outcomes.',
+    },
+    {
+      title: 'Infrastructure',
+      description: 'Repairs, internet, and computer lab improvements for better learning.',
+    },
+  ],
 }

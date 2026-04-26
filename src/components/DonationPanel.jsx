@@ -43,6 +43,8 @@ function DonationPanel({ donation }) {
                 <a
                   key={link.label}
                   href={link.href}
+                  target="_blank"
+                  rel="noreferrer"
                   className="rounded-md border border-blue-200 px-3 py-2 text-sm font-medium text-blue-900 transition hover:bg-blue-900 hover:text-white"
                 >
                   {link.label}
