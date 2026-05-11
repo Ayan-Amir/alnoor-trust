@@ -6,7 +6,7 @@ function Hero({ content, location }) {
 			id='top'
 			className='relative bg-cover bg-[55%_center] bg-no-repeat md:bg-center'
 			style={{
-				backgroundImage: `linear-gradient(to bottom, rgba(10, 36, 99, 0.75), rgba(18, 48, 126, 0.75)), url(${heroBackground})`,
+				backgroundImage: `linear-gradient(to bottom, rgba(10, 36, 99, .85), rgba(18, 48, 126, 0.85)), url(${heroBackground})`,
 			}}
 		>
 			<div className='mx-auto grid max-w-6xl items-center gap-8 px-4 py-16 md:grid-cols-2 md:px-6 md:py-20'>
