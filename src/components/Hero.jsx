@@ -4,9 +4,9 @@ function Hero({ content, location }) {
 	return (
 		<section
 			id='top'
-			className='relative bg-cover bg-center bg-no-repeat'
+			className='relative bg-cover bg-[55%_center] bg-no-repeat md:bg-center'
 			style={{
-				backgroundImage: `linear-gradient(to bottom, rgba(10, 36, 99, 0.88), rgba(18, 48, 126, 0.82)), url(${heroBackground})`,
+				backgroundImage: `linear-gradient(to bottom, rgba(10, 36, 99, 0.75), rgba(18, 48, 126, 0.75)), url(${heroBackground})`,
 			}}
 		>
 			<div className='mx-auto grid max-w-6xl items-center gap-8 px-4 py-16 md:grid-cols-2 md:px-6 md:py-20'>
