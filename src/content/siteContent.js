@@ -13,6 +13,7 @@ export const siteContent = {
       'https://drive.google.com/drive/folders/1gDgo1-0VF_aoHlwmYlumlvlAQ8ayc1zT',
     whatsapp: 'https://wa.me/923218465755',
   },
+  galleryImages: [],
   stats: [
     { label: 'Students', value: '218' },
     { label: 'Staff', value: '12' },
