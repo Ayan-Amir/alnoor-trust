@@ -3,6 +3,7 @@ import CtaStrip from "./components/CtaStrip";
 import DonationPanel from "./components/DonationPanel";
 import DonationUse from "./components/DonationUse";
 import FeeTable from "./components/FeeTable";
+import GallerySection from "./components/GallerySection";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -38,7 +39,7 @@ function App() {
 				/>
 				<About paragraphs={siteContent.about} challenges={siteContent.challenges} />
 				<Programs sponsorshipOptions={siteContent.sponsorshipOptions} />
-				{/* <GallerySection driveGalleryUrl={siteContent.links.driveGallery} images={siteContent.galleryImages} /> */}
+				<GallerySection driveGalleryUrl={siteContent.links.driveGallery} images={siteContent.galleryImages} />
 				<WaysToGive giving={siteContent.giving} />
 				<DonationUse donationUse={siteContent.donationUse} />
 				<CtaStrip

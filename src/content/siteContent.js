@@ -1,3 +1,11 @@
+import gallery9300 from '../assets/images/IMG_9300.JPG'
+import gallery9371 from '../assets/images/IMG_9371.JPG'
+import gallery9415 from '../assets/images/IMG_9415.JPG'
+import gallery9541 from '../assets/images/IMG_9541.JPG'
+import gallery9550 from '../assets/images/IMG_9550.JPG'
+import gallery9564 from '../assets/images/IMG_9564.JPG'
+import gallery9590 from '../assets/images/IMG_9590.JPG'
+
 export const siteContent = {
   orgName: 'Al Noor Trust',
   location: 'Pattoki, Pakistan',
@@ -13,7 +21,15 @@ export const siteContent = {
       'https://drive.google.com/drive/folders/1gDgo1-0VF_aoHlwmYlumlvlAQ8ayc1zT',
     whatsapp: 'https://wa.me/923218465755',
   },
-  galleryImages: [],
+  galleryImages: [
+    { src: gallery9300, alt: 'Al Noor Trust School — campus and students' },
+    { src: gallery9371, alt: 'Al Noor Trust School — campus and students' },
+    { src: gallery9415, alt: 'Al Noor Trust School — campus and students' },
+    { src: gallery9541, alt: 'Al Noor Trust School — campus and students' },
+    { src: gallery9550, alt: 'Al Noor Trust School — campus and students' },
+    { src: gallery9564, alt: 'Al Noor Trust School — campus and students' },
+    // { src: gallery9590, alt: 'Al Noor Trust School — campus and students' },
+  ],
   stats: [
     { label: 'Students', value: '218' },
     { label: 'Staff', value: '12' },
